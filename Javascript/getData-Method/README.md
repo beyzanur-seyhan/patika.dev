@@ -56,7 +56,7 @@
 - Asenkron fonksiyonu nasıl kullanacağımı,
 - Await söz dizimini,
 - Farklı bir javascript dosyasındaki metodu export etmeyi
-- Export ettiğim metodu ana dosyaya import etmeyi öğrendim
+- Export ettiğim metodu ana dosyaya import etmeyi öğrendim.
 
 ### Patika.Dev Hesabım:
 https://app.patika.dev/byznursyhn
