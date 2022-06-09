@@ -52,7 +52,7 @@
 
 ### Neler Öğrendim?
 
-- Axios ile karşı sunucudan veri çekmeyi,
+- Axios kütüphanesi ile karşı sunucudan veri çekmeyi,
 - Asenkron fonksiyonu nasıl kullanacağımı,
 - Await söz dizimini,
 - Farklı bir javascript dosyasındaki metodu export etmeyi
