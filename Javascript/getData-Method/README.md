@@ -1,4 +1,4 @@
-## VERİ ÇEKMEK (ASYC/AWAİT - AXIOS)
+## VERİ ÇEKMEK (ASYNC/AWAİT - AXIOS)
 
 ### Görev:
 
