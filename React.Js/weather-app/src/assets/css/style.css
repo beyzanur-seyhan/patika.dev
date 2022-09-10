@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root, .app {
+    height: 100%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.app {
+    padding: 32px 19px 12px 19px;
+    width: 425px;
+    max-width: 100%;
+}
+
+select {
+    outline: none;
+    padding: 8px 0;
+    width: 100%;
+    text-align: center;
+    appearance: none;
+    position: relative;
+    background-image: url("../img/arrow-down-icon.svg");
+    background-repeat: no-repeat;
+    background-position: 90% center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25), inset 1px 1px 0px rgba(255, 255, 255, 0.25);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFF;
+    transition: background-image 0.1s;
+}
+
+select:focus {
+    background-image: url("../img/arrow-up-icon.svg");
+}
+
+.morning-background {
+    background: linear-gradient(18.04deg, #F1B14B -0.75%, #BC2C35 100%);
+}
+
+.day-backgorund {
+    background: linear-gradient(18.04deg, #4BB5F1 -0.75%, #2F2CBC 100%);
+}
+
+.night-background {
+    background: linear-gradient(18.04deg, #223076 -0.75%, #06050E 100%);
+}
+
+main {
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    padding: 21px 30px;
+}
+
+main img {
+    width: 100px;
+}
+
+time {
+    font-size: 14px;
+    display: block;
+}
+
+.degree {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    position: relative;
+}
+
+.degree sup {
+    font-size: 12px;
+    font-weight: normal;
+    position: absolute;
+}
+
+.degree {
+    font-size: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tbody {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+}
+
+tr {
+    border: 1px solid #949494;
+    border-right: none;
+    border-left: none;
+}
+
+td {
+    color: #FFF;
+    padding: 4px 0;
+}
+
+.max-temp, .min-temp {
+    display: inline-block;
+}
+
+.min-temp {
+    color: #A8A8A8;
+    margin-left: 10px;
+}
+
+table img {
+    width: 30px;
+}
+
+td:nth-child(2) {
+    text-align: center;
+}
+
+td:last-child {
+    text-align: end;
+}
+
+td:last-child sup {
+    font-size: 8px;
+}
+
+@media only screen and (min-width: 430px) {   
+    #root {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+}
+
+@media only screen and (min-width: 400px) {
+    .description b sup {
+        right: 18px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .description b sup {
+        right: 16px;
+    }
+}
