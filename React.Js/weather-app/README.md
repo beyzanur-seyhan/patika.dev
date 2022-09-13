@@ -1,3 +1,37 @@
+# WEATHER APP 🌤️
+This project is a weather application
+<table>
+    <tr>
+        <th>Morning</th>
+        <th>Day</th>
+        <th>Night</th>
+    </tr>
+    <tr>
+    <td>
+        <img src="README.md-views/view-1.png" />
+    </td>
+    <td>
+        <img src="README.md-views/view-2.png" />
+    </td>
+    <td>
+        <img src="README.md-views/view-3.png" />
+    </td>
+    </tr>
+</table>
+
+## How Does It Work?
+- When the page is first opened, it receives the location information.
+- There are 81 provinces in the dropdown menu. By selecting one of these provinces, the weather information can be accessed with that.
+- The application has a background based on the local time on the user's computer.
+
+<img src="README.md-views/view.gif" />
+
+## What Did I Use?
+- React.js (JSX, Context Api, useState, useEffect)
+
+## Figma Design UI Link 
+https://www.figma.com/community/file/1151514966042190464
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
